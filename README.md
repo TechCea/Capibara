@@ -70,6 +70,8 @@ nav{
     width: 196px;
     background: #e613c2;
     font-family: sans-serif, cursive;
+    color: white;
+    line-height: 48px;
 }
 #top{
     position: relative;
@@ -77,6 +79,13 @@ nav{
     width: 1000px;
     height: 192px;
     background: white;
+    text-align: center;
+}
+#top ul li img{
+border-radius: 20%;
+}
+#top ul li h6{
+    font-family: sans-serif,cursive;
 }
 section{
     position: relative;
@@ -85,16 +94,10 @@ section{
     height: 453px;
     background: #c4ee07;
 }
-footer{
-    position: relative;
-    margin:20px auto;
-    width: 1000px;
-    height: 70px;
-    background: #ec0b0b;
-}
 #top ul{
     width: 1010px;
     height: 192px;
+    color: white;
 }
 #top ul li{
     float: left;
@@ -118,6 +121,21 @@ article{
     width: 600px;
     height: 453px;
     background: blue;
+    color: white;
+    line-height: 16px;
+}
+article h4{
+    font-family: sans-serif, cursive;
+    font-size: 40px;
+    margin: 20px;
+}
+article p img{
+    float: left;
+    margin-right: 20px;
+}
+article p{
+    margin:5px 20px;
+    text-align: justify;
 }
 aside#der{
     position: absolute;
@@ -126,6 +144,17 @@ aside#der{
     width: 200px;
     height: 453px;
     background: #ec0b0b;
+}
+footer{
+    position: relative;
+    margin:20px auto;
+    width: 1000px;
+    height: 70px;
+    background: #ec0b0b;
+    color: white;
+    text-align: center;
+    font-family: sans-serif,cursive;
+    line-height: 70px;
 }
 
 </style>
@@ -158,15 +187,15 @@ aside#der{
     <ul>
         <li>
             <h6>FIGURA</h6>
-            <img src="IMG/Capibeads/84e116ad-465d-451d-af01-b3db6e98c746.jpg" width="150">
-            <p>hola buenas tardes </p>
+            <img src="IMG/Capibeads/84e116ad-465d-451d-af01-b3db6e98c746.jpg" width="160">
+            <h6>hola buenas tardes </h6>
         </li>
         <li><h6>FIGURA</h6>
-            <img src="IMG/Capibeads/69a25541-5d52-4c41-a027-cec9d1948fbc.jpg" width="150">
-            <p>hola buenas tardes </p></li>
+            <img src="IMG/Capibeads/69a25541-5d52-4c41-a027-cec9d1948fbc.jpg" width="160">
+            <h6>hola buenas tardes </h6></li>
         <li><h6>FIGURA</h6>
-            <img src="IMG/Capibeads/611c76e8-a68f-4deb-88af-5b3b1bd58e13.jpg" width="150">
-            <p>hola buenas tardes </p></li>
+            <img src="IMG/Capibeads/611c76e8-a68f-4deb-88af-5b3b1bd58e13.jpg" width="160">
+            <h6>hola buenas tardes </h6></li>
     </ul>
 </div>
 <section>
@@ -184,12 +213,12 @@ aside#der{
     </article>
     <aside id="der"></aside>
 </section>
-<audio autoplay controls loop preload="auto">
+<center><audio autoplay controls loop preload="auto">
     <source src="VIDEO/Death By Glamour.mp3" type="audio/mp3">
 
-</audio>
+</audio></center>
 <footer>
-   &copy; Todos los derechos reservados; 
+   &copy; Todos los derechos reservados
 </footer>
 </body>
 </html>
